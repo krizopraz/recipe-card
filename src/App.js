@@ -20,6 +20,12 @@ function App() {
       <header className="App-header">
         <Card
           /* prop ismi = { değişken } */
+          likeCount={likeCount}
+          isLiked={isLiked}
+          title={recipeItem.title}
+          date={recipeItem.date}
+          image={recipeItem.image}
+          description={recipeItem.description}
           author={recipeAuthor}
         />
       </header>
